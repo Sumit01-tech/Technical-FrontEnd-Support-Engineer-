@@ -1,0 +1,109 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.bundle-container {
+  width: 100%;
+  max-width: 400px;
+  background: #fff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #2c8b76;
+}
+
+.bundle-option {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin: 12px 0;
+  padding: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.option-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 10px;
+}
+
+.option-header input {
+  transform: scale(1.2);
+}
+
+.discount {
+  color: green;
+  font-size: 12px;
+  text-align: right;
+}
+
+.popular {
+  color: green;
+  font-weight: bold;
+}
+
+.option-content {
+  display: block;
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px dashed #ccc;
+}
+
+.selection {
+  display: grid;
+  grid-template-columns: 0.2fr 1fr 1fr;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.selection div {
+  display: flex;
+  flex-direction: column;
+}
+
+.selection label {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.selection select {
+  width: 100%;
+  padding: 4px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.add-to-cart {
+  background-color: #1e9176;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.powered {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 8px;
+  color: #888;
+}
