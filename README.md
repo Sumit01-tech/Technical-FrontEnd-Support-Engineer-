@@ -21,7 +21,7 @@ This project is a demonstration of interactive boxes created using basic HTML, C
 - JavaScript is used to control the expand/collapse functionality of the boxes.
 
 ## 🌐 Live Demo
-- [Live Demo Link](YOUR_LIVE_DEMO_LINK_HERE)
+- [Live Demo Link](https://fluffy-elf-eb5667.netlify.app/)
 
 ## 📌 Repository Link
 - [GitHub Repository](https://github.com/Sumit01-tech/Technical-FrontEnd-Support-Engineer-.git)
